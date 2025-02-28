@@ -7,8 +7,6 @@ retrieve a list of available cinema seats, see their price, location and book th
 a unique token provided during the purchase process. The service provides also very basic statistics regarding the
 operations of the cinema.
 
-[TOC]
-
 ## ⚠️ Disclaimers and comments on the project and code structure
 
 - 🐣 I am new to Java (any recent versions of it) and Spring Boot.
@@ -24,9 +22,7 @@ operations of the cinema.
 
 #### Request
 
-`GET /seats`
-
-Returns the list of available seats.
+`GET /seats` Returns the list of available seats.
 
 #### Response
 
@@ -49,7 +45,7 @@ Returns the list of available seats.
 
 #### Request
 
-`POST /purchase`
+`POST /purchase` Purchase a seat in the given row and column.
 
 Body:
 ```json
@@ -76,7 +72,7 @@ Body:
 
 #### Request
 
-`POST /return`
+`POST /return` Returns the ticket with a matching token.
 
 Body:
 
@@ -102,7 +98,7 @@ Response:
 
 #### Request
 
-`GET /stats?password={password}` (password is super_secret)
+`GET /stats?password={password}` Returns basic statistics for the cinema. (password is super_secret)
 
 #### Response
 
