@@ -1,4 +1,4 @@
-# 🍿🎞️ Excercise Project Cinema Room
+# 🍿🎞️ Exercise Project Cinema Room
 
 This tiny exercise project was completed following the "Introduction to Spring Boot with Java" course on Hyperskill.
 
